@@ -1,0 +1,44 @@
+.mainFooterWrap{
+    width: 100%;
+    height: 30rem;
+    background: #FFF4DD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contentWrap{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    position: absolute;
+    z-index: 2;
+    gap: 2rem;
+}
+@media screen and (max-width:500px) {
+    .content{
+        margin-top: 5rem;
+    }
+    
+}
+.listLinkItems{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cloudWrap{
+    position: relative;
+    z-index: 1;
+}
