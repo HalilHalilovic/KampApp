@@ -17,10 +17,10 @@ function Footer(params) {
             <h1>Logo</h1>
             <div className={style.listLinkItemsWrap}>
             <ul className={style.listLinkItems}>
-                <li><Link href={'/'}>Home</Link></li>
-                <li><Link href={'/'}>Stuff</Link></li>
-                <li><Link href={'/'}>Gallery</Link></li>
-                <li><Link href={'/'}>About Us</Link></li>
+                <li className={style.listLinkItem}><Link href={'/'}>Home</Link></li>
+                <li className={style.listLinkItem}><Link href={'/#meetUs'}>Stuff</Link></li>
+                <li className={style.listLinkItem}><Link href={'/events'}>Gallery</Link></li>
+                <li className={style.listLinkItem}><Link href={'/about'}>About Us</Link></li>
             </ul>
             </div>
         </div>
