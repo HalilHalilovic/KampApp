@@ -65,8 +65,8 @@
 }
 .teacherName{
     font-family: 'Baloo Thambi 2', cursive;
-    text-shadow: 2px 2px #F6D386;
-    color: #EE97C0;
+    text-shadow: 2px 2px #EE97C0;
+    color: white;
     font-size: 40px;
     text-align: center;
     margin: 1rem;
@@ -78,6 +78,7 @@
     flex-direction: column;
     text-align: center;
     font-family: 'Baloo Thambi 2', cursive;
+    color: #F6D386;
 }
 .teacherSocial{
     width: 100%;

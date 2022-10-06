@@ -19,14 +19,14 @@ function Contact(params) {
             <h1 className={style.tittle}>Contact us or visit us </h1>
             <div className={style.itemContactWrap}>
             <div className={style.itemContact}>
-              <Link  href={"https://facebook.com/"}><div className={style.iconTextWrap}><Image className={style.linkItem} src={facebookSvg}></Image>Facebook</div></Link>
+              <Link  href={"https://facebook.com/"}><Image className={style.linkItem} src={facebookSvg}></Image></Link>
             </div>
             <div className={style.itemContact}>
-            <Link href={"https://wa.me/38972569188"}><div className={style.iconTextWrap}><Image className={style.linkItem} src={whatsUpSvg}></Image>WhatsUp</div></Link>
+            <Link href={"https://wa.me/38972569188"}><Image className={style.linkItem} src={whatsUpSvg}></Image></Link>
               
             </div>
             <div className={style.itemContact}>
-            <Link href={"https://instagram.com"}><div className={style.iconTextWrap}><Image className={style.linkItem} src={instagramSvg}></Image>Instagram</div></Link>
+            <Link href={"https://instagram.com"}><Image className={style.linkItem} src={instagramSvg}></Image></Link>
             </div>
             </div>
             

@@ -61,7 +61,7 @@
     align-items: center;
     gap: 1rem;
     font-size: 30px;
-    margin-top: 2rem;
+   
 }
 .itemContact:hover{
     cursor: pointer;
@@ -75,7 +75,10 @@
 } */
 
 .itemContactWrap{
-    margin-top: 5rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 /* .GoogleMap{
     width:450;

@@ -15,13 +15,14 @@ function Footer(params) {
         </div>
         <div className={style.content}>
             <h1>Logo</h1>
+            <div className={style.listLinkItemsWrap}>
             <ul className={style.listLinkItems}>
                 <li><Link href={'/'}>Home</Link></li>
                 <li><Link href={'/'}>Stuff</Link></li>
                 <li><Link href={'/'}>Gallery</Link></li>
                 <li><Link href={'/'}>About Us</Link></li>
             </ul>
-         
+            </div>
         </div>
         <div className={style.cloudWrap}>
           <Cloud />
