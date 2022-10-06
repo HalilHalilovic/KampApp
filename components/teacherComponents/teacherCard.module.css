@@ -35,8 +35,8 @@
 }
 .teacherCard{
     width: 40%;
-    height: 60%;
-    background: #FFF4DD;
+    height: 65%;
+    background: #6AA4D9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -61,6 +61,7 @@
 
 .img{
     border-radius: 50px !important;
+    margin-top: 5px !important;
 }
 .teacherName{
     font-family: 'Baloo Thambi 2', cursive;
@@ -68,10 +69,10 @@
     color: #EE97C0;
     font-size: 40px;
     text-align: center;
+    margin: 1rem;
 }
 .textProfession{
     width: 90%;
-    height: 30%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -86,4 +87,7 @@
 }
 .socialMediaItem:hover{
     cursor: pointer;
+}
+.proffessiontitle{
+    margin: 0;
 }

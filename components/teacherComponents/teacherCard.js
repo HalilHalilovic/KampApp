@@ -2,6 +2,8 @@ import classes from "./teacherCard.module.css"
 import Image from "next/image";
 import Link from 'next/link';
 import TeacherImg from "./image/imgCardTest.png";
+import TeacherMaleImg from "./image/TeacherImg.jpg";
+import TeacherFemaleImg from "./image/TeacherFimg.jpg";
 import facebookImg from '..//contactComponent/SvgElements/facebook.svg'
 import instagramImg from '..//contactComponent/SvgElements/intagram.svg'
 import twitterImg from '..//contactComponent/SvgElements/whatsUp.svg'
@@ -14,12 +16,12 @@ function TeacherComponent(params) {
         <div  className={classes.wrapCardComponent}>
             <div className={classes.teacherCard}>
                 <div className={classes.imgWrapper}>
-                <Image className={classes.img}  width={100} height={100} src={TeacherImg}></Image>
+                <Image className={classes.img}  width={200} height={200} src={TeacherMaleImg}></Image>
                 </div>
                 <h1 className={classes.teacherName}>John Doe</h1>
                 <div className={classes.textProfession}>
-                <h3>Profession Here</h3>
-                <p>Small Paragraph to write something about myself</p>
+                <h3 className={classes.proffessiontitle}>Profession Here</h3>
+                <p className={classes.proffessionParagraph}>Small Paragraph to write something about myself</p>
                 </div>
                 <div className={classes.teacherSocial}>
                 <Link  href={"https://facebook.com/"}>
@@ -35,12 +37,12 @@ function TeacherComponent(params) {
             </div>
             <div className={classes.teacherCard}>
                 <div className={classes.imgWrapper}>
-                <Image className={classes.img}  width={100} height={100} src={TeacherImg}></Image>
+                <Image className={classes.img}  width={200} height={200} src={TeacherFemaleImg}></Image>
                 </div>
-                <h1 className={classes.teacherName}>John Doe</h1>
+                <h1 className={classes.teacherName}>Jaine Doe</h1>
                 <div className={classes.textProfession}>
-                <h3>Profession Here</h3>
-                <p>Small Paragraph to write something about myself</p>
+                <h3 className={classes.proffessiontitle}>Profession Here</h3>
+                <p className={classes.proffessionParagraph}>Small Paragraph to write something about myself</p>
                 </div>
                 <div className={classes.teacherSocial}>
                 <Link  href={"https://facebook.com/"}>
