@@ -5,13 +5,15 @@ function NavBar(params) {
   return (
     <div className={style.navContainer}>
       <div className={style.imgWrap}>
-      <Link href='/'><a>logo</a></Link>
+        <Link href="/">
+          <a>KampLogo</a>
+        </Link>
       </div>
 
       <nav className={style.nav}>
         <ul className={style.navUl}>
           <li className={style.navLi}>
-            <Link  href="/events">Gallery</Link>
+            <Link href="/events">Gallery</Link>
           </li>
           <li className={style.navLi}>
             <Link href="/about">About Us</Link>

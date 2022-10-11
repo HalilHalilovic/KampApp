@@ -1,29 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap");
 
-.infoMainWrap{
-    width: 100%;
-    height: 40rem;
-    background-color: white;
-    margin-top: 3rem;
-    display: inline-block;
-
+.infoMainWrap {
+  width: 100%;
+  height: 40rem;
+  background-color: white;
+  margin-top: 3rem;
+  display: inline-block;
 }
-.cloudSvgWrap{
-    z-index: -1;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.infoContentWrap{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.cloudSvgWrap {
+  z-index: -1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.contentWrap{
+.infoContentWrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentWrap {
   width: 80%;
   height: 90%;
 
@@ -31,110 +30,109 @@
   flex-direction: row;
   overflow: hidden;
 }
-@media screen and (max-width:500px) {
-    .contentWrap{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-      }
-}
-
-
-.imageWrapContainer{
-    width: 50%;
-    height: 100%;
-}
-@media screen and(max-width:500px) {
-    .imageWrapContainer{
-        width: 100%;
-        z-index: -1;
-    }
-}
-
-.imgBgContainer{
-    width: 90%;
-    height: 90%;
-    background: url('./images/InfoSvgBg.svg');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+@media screen and (max-width: 500px) {
+  .contentWrap {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-}
-@media screen and (max-width:500px) {
-    .imgBgContainer{
-        width: 200%;
-        height: 100%;
-        position: relative;
-    }
+    width: 100%;
+  }
 }
 
-.imgTeacher{
+.imageWrapContainer {
+  width: 50%;
+  height: 100%;
+}
+@media screen and(max-width:500px) {
+  .imageWrapContainer {
+    width: 100%;
+    z-index: -1;
+  }
+}
 
-    clip-path: circle(42% at 50% 50%);
+.imgBgContainer {
+  width: 90%;
+  height: 90%;
+  background: url("/images/InfoSvgBg.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 500px) {
+  .imgBgContainer {
+    width: 200%;
+    height: 100%;
+    position: relative;
+  }
+}
+
+.imgTeacher {
+  clip-path: circle(42% at 50% 50%);
 }
 
 @media screen and(max-width:500px) {
-    .imgTeacher{
-        width: 100%;
-    }
+  .imgTeacher {
+    width: 100%;
+  }
 }
-.ImgTeacher{
-    width: 60%;
-    height: 100%;
-    clip-path: circle(40%);
+.ImgTeacher {
+  width: 60%;
+  height: 100%;
+  clip-path: circle(40%);
+}
+@media screen and (max-width: 500px) {
+  .ImgTeacher {
+    visibility: hidden;
   }
-  @media screen and (max-width:500px) {
-      .ImgTeacher{
-          visibility: hidden;
-        }
-  }
-  .textInfoContent{
-    width: 50%;
-    height: 100%;
-  }
-  @media screen and (max-width:500px) {
-  .textInfoContent{
+}
+.textInfoContent {
+  width: 50%;
+  height: 100%;
+}
+@media screen and (max-width: 500px) {
+  .textInfoContent {
     width: 90%;
     height: 50%;
     z-index: 1;
     position: absolute;
-}}
-
-.textInfoWrap{
-    display: flex;
-    flex-direction: column;
-    margin-top: 3rem;
+  }
 }
 
-.textInfoTittle{
-    font-family: 'Baloo Thambi 2', cursive;
-    color: #EE97C0;
-    font-size: 40px;
+.textInfoWrap {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
 }
-.textInfoPara{
-    width: 70%;
-    font-family: 'Baloo Thambi 2', cursive;
-    color: #619FD7;
-    text-align: left;
+
+.textInfoTittle {
+  font-family: "Baloo Thambi 2", cursive;
+  color: #ee97c0;
+  font-size: 40px;
 }
-@media  screen and (max-width:500px) {
-    .textInfoPara{
-        width: 100%;
-      
-    }
+.textInfoPara {
+  width: 70%;
+  font-family: "Baloo Thambi 2", cursive;
+  color: #619fd7;
+  text-align: left;
 }
-.button{
-    background-color: #EE97C0;
-    width: fit-content;
-    border-radius: 8px;
-    padding: 5px;
-    color: white;
-    font-family: 'Baloo Thambi 2', cursive;
+@media screen and (max-width: 500px) {
+  .textInfoPara {
+    width: 100%;
+  }
 }
-.button:hover{
-    background-color: #fd7ab7;
-    color: white;
+.button {
+  background-color: #ee97c0;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 8px 26px;
+  height: 2.5rem;
+  color: white;
+  font-family: "Baloo Thambi 2", cursive;
+}
+.button:hover {
+  background-color: #fd7ab7;
+  color: white;
 }

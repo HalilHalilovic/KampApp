@@ -5,6 +5,8 @@ import ResultsTitle from "../../components/galleryComponents/results-title";
 import { Fragment } from "react";
 import Button from "../../components/ui/button";
 import ErrorAlert from "../../components/ui/error-alert.js";
+import NavBar from "../../components/navBar/header";
+
 function FilteredEventsPage(params) {
   const router = useRouter();
   const filterData = router.query.slug;
@@ -20,12 +22,12 @@ function FilteredEventsPage(params) {
 
   if (isNaN(numYear) || isNaN(numMonth)) {
     return (
-      <Fragment>
+      <div class="center">
          <ErrorAlert><p>Invalid filter.</p></ErrorAlert> 
-        <div className="center">
+        <div >
           <Button link="/events">Show All Events</Button>
         </div>
-      </Fragment>
+      </div>
     );
   }
   const filteredEvents = getFilteredEvents({
@@ -34,12 +36,12 @@ function FilteredEventsPage(params) {
   });
   if (!filteredEvents || filteredEvents.length === 0) {
     return (
-      <Fragment>
-        <ErrorAlert><p>No Photos found.</p></ErrorAlert>
-        <div className="center">
+      <div class="center">
+        <ErrorAlert><p>No Photos found for this date.</p></ErrorAlert>
+        <div >
           <Button link="/events">Go Back</Button>
         </div>
-      </Fragment>
+      </div>
     );
   }
   const date = new Date(numYear, numMonth - 1);

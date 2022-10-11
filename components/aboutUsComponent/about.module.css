@@ -1,0 +1,86 @@
+@import url(//db.onlinewebfonts.com/c/2167e76f00e569cc11b3665679996380?family=Futura+Light);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+.aboutMainWrap{
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.aboutContentWrap{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+.aboutTittle{
+    display: flex;
+    flex-direction: column;
+}
+.divLine{
+    height: 2px;
+    background-color: black;
+}
+.tittle{
+    font-family: "Futura Light";
+}
+.aboutParagraph{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Futura Light";
+}
+.signature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foundersSignatureWrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    
+}
+.founterName{
+    font-family: 'Montserrat', sans-serif;
+}
+.founderProffesion{
+    font-family: "Futura Light";
+}
+.aboutImgWrap{
+    width: 50%;
+}
+@media screen and (max-width: 500px) {
+    .aboutImgWrap{
+      visibility: hidden;
+    }
+}
+@media screen and (max-width: 500px) {
+    .aboutContent{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .aboutContentWrap{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

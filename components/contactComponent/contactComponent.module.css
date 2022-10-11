@@ -1,84 +1,75 @@
-.mainContactDiv{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-@media screen and (max-width:500px) {
-
+.mainContactDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /*Svg cloud*/
-.CloudContainer{
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    z-index: -1;
+.CloudContainer {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  z-index: -1;
 }
-.contactContentWrap{
-    width: 90%;
-    height: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.contactContentWrap {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (max-width: 500px) {
+  .contactContentWrap {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
 
+.contactTextContent {
+  width: 50%;
+  height: 100%;
 }
-@media screen and (max-width:500px) {
-    .contactContentWrap{
-        flex-direction: column;
-        gap: 2rem;
-    }
+.contactText {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: "Baloo Thambi 2", cursive;
+  color: #ee97c0;
+  align-items: center;
 }
-
-.contactTextContent{
-    width:50%;
-    height: 100%;
-   
-}
-.contactText{
+@media screen and (max-width: 500px) {
+  .contactTextContent {
     width: 100%;
-    font-family: 'Baloo Thambi 2', cursive;
-    color: #EE97C0;
-    text-align: center;
-}
-.sectionDescription{
-    text-align:left;
-    color: #EE97C0;
-}
-.tittle{
-    text-shadow: 2px 2px #f6d386;
-}
-@media screen and (max-width:500px) {
-    .contactTextContent{
-        width:100%;
-        height: fit-content;
-       
-    }
+    height: fit-content;
+  }
 }
 
-
-.itemContact{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 30px;
-   
+.itemContact {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 30px;
 }
-.itemContact:hover{
-    cursor: pointer;
+.itemContact:hover {
+  cursor: pointer;
 }
-.iconTextWrap{
-    display: flex;
-    gap: 1rem;
+.itemContact:nth-child(even) {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+.iconTextWrap {
+  display: flex;
+  gap: 1rem;
 }
 /* .linkItem:hover{
     cursor: pointer;
 } */
 
-.itemContactWrap{
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.itemContactWrap {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 /* .GoogleMap{
     width:450;
@@ -86,5 +77,3 @@
     frameborder:0;
     border:0;
 } */
-
-

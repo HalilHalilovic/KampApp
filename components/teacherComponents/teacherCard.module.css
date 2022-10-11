@@ -1,94 +1,94 @@
-.mainContentComponent{
-    width: 100%;
+.mainContentComponent {
+  width: 100%;
+  height: 70rem;
+  margin-bottom: 5rem;
+  margin-top: auto;
+  background: url("/images/sectionBg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapCardComponent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 70%;
+}
+.tittleMainSection {
+  font-family: "Baloo Thambi 2", cursive;
+  color: #ee97c0;
+  text-shadow: 2px 2px #e4f5ff;
+  font-size: 20px;
+}
+@media screen and (max-width: 500px) {
+  .wrapCardComponent {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
     height: 70rem;
-    margin-top:auto;
-    background: url('./image/sectionBg.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  }
 }
-.wrapCardComponent{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 60%;
-    height: 70%;
+.teacherCard {
+  width: 40%;
+  background: #6aa4d9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+  border: 2px solid #f7d58d;
+  padding: 1rem 1rem 2rem;
+  border: 5px double #fff4dd;
+}
 
-}
-.tittleMainSection{
-    font-family: 'Baloo Thambi 2', cursive;
-    color: #EE97C0;
-    text-shadow: 2px 2px #E4F5FF;
-    font-size: 20px;
-}
-@media screen and (max-width:500px) {
-    .wrapCardComponent{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        height: 70rem;
-    }
-}
-.teacherCard{
-    width: 40%;
-    height: 65%;
-    background: #6AA4D9;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 50px;
-    border: 2px solid #F7D58D;
-   
-}
-.teacherCard:hover {
-    box-shadow: 2px 2px 6px 6px  #F7D58D;
-}
-@media screen and (max-width:500px) {
-   .teacherCard{
+@media screen and (max-width: 500px) {
+  .teacherCard {
     width: 90%;
     margin-top: 2rem;
-   }
+  }
 }
 
 /*card starts here*/
 
-.img{
-    border-radius: 50px !important;
-    margin-top: 5px !important;
+.img {
+  border-radius: 50px !important;
+  margin-top: 5px !important;
 }
-.teacherName{
-    font-family: 'Baloo Thambi 2', cursive;
-    text-shadow: 2px 2px #EE97C0;
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    margin: 1rem;
+.teacherName {
+  font-family: "Baloo Thambi 2", cursive;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin: 1rem;
 }
-.textProfession{
-    width: 90%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Baloo Thambi 2', cursive;
-    color: #F6D386;
+.textProfession {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Baloo Thambi 2", cursive;
+  color: #f6d386;
 }
-.teacherSocial{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.teacherSocial {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.socialMediaItem:hover{
-    cursor: pointer;
+.socialMediaItem:hover {
+  cursor: pointer;
 }
-.proffessiontitle{
-    margin: 0;
+.proffessiontitle {
+  margin: 0;
+}
+.proffessionParagraph {
+  margin: 2rem 1rem;
 }

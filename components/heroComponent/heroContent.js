@@ -7,11 +7,11 @@ function Hero(params) {
     <div className={style.mainHeroWrap}>
       <div className={style.contentHeroWrap}>
         <div className={style.textContentWrap}>
-          <h1  className={style.textContentTittle}>Welcome to Kamp Daycare </h1>
+          <h1 className={style.textContentTittle}>Welcome to Kamp Daycare </h1>
           <p>
-            At Kamp nursery, we pride ourselves on a highly successful partnership
-            working between parents, children, and the nursery in order to
-            achieve the very best care and education for each individual child.
+            At Kamp nursery, we pride ourselves on a highly successful partnership working between
+            parents, children, and the nursery in order to achieve the very best care and education
+            for each individual child.
           </p>
           <div className={style.buttonWrap}>
             <Link href="/about">
@@ -23,7 +23,7 @@ function Hero(params) {
         <div className={style.imgContentWrap}>
           <div className={style.imgWrapBg}>
             <div className={style.HeroImg}>
-              <Image src={HeroImg}></Image>
+              <Image src={HeroImg} alt="" />
             </div>
           </div>
         </div>

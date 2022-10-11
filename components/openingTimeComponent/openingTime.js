@@ -7,10 +7,10 @@ function OpeningTimeComponent(params) {
     <div className={style.mainTimeWrap}>
       <div className={style.TimeTittle}>
         <div className={style.timeHeadSvg}>
-          <Image layout="responsive"  src={HeadSvg}></Image>
+          <Image layout="responsive" src={HeadSvg} alt="" />
         </div>
         <div className={style.TittleWrap}>
-          <h1>Opening Hours</h1>
+          <h1>OPENING HOURS</h1>
         </div>
       </div>
       <div className={style.cardsWrap}>
@@ -28,8 +28,8 @@ function OpeningTimeComponent(params) {
         </div>
       </div>
       <div className={style.timeDownSvg}>
-          <Image layout="responsive"  src={DownSvg}></Image>
-        </div>
+        <Image layout="responsive" src={DownSvg} alt="" />
+      </div>
     </div>
   );
 }

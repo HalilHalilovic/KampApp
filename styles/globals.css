@@ -24,3 +24,9 @@ a {
     background: rgb(255, 255, 255);
   }
 }
+
+
+.center {
+  margin: auto;
+  text-align: center;
+}
