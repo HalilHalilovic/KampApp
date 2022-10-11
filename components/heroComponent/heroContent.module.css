@@ -10,9 +10,12 @@
 }
 @media screen and (max-width: 500px) {
   .mainHeroWrap {
-   margin-bottom: -2rem;
+    height: 100vh;
+    background-color: #e4f5ff;
+    background: linear-gradient(#e4f5ff, white);
   }
 }
+
 .mainHeroWrap:before {
   content: "";
   position: absolute;
@@ -25,7 +28,7 @@
 }
 @media screen and (max-width: 500px) {
   .mainHeroWrap:before {
-    background: linear-gradient(90deg, #e4f5ff 0.5, #e3f5ff 0.5);
+    content: normal;
   }
 }
 .contentHeroWrap {
