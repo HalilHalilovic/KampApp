@@ -8,6 +8,11 @@
   background: linear-gradient(90deg, #e4f5ff, #e3f5ff);
   background-blend-mode: screen;
 }
+@media screen and (max-width: 500px) {
+  .mainHeroWrap {
+   margin-bottom: -2rem;
+  }
+}
 .mainHeroWrap:before {
   content: "";
   position: absolute;
