@@ -21,7 +21,6 @@ export default function Home() {
       <HealthyFoodComponent />
       <CloudsSvg />
       <TeacherSection />
-      <CloudsSvg />
       <Contact />
       <Footer></Footer>
     </div>
